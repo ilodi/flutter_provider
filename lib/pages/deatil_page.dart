@@ -13,7 +13,7 @@ class DetailPage extends StatelessWidget {
     final CounterProvider counterProvider =
         Provider.of<CounterProvider>(context, listen: false);
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(title: Text('Provider'),),
       body: Center(
         child: Column(
           children: <Widget>[
